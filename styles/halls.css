@@ -1,0 +1,76 @@
+.halls {
+
+}
+
+
+
+.halls__title {
+  font-size: 40px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 60px;
+}
+
+.halls__item {
+font-size: 70px;
+font-weight: 700;
+text-align: center;
+line-height: 80px;
+text-transform: uppercase;
+padding-top: auto;
+padding-bottom: auto;
+/* height: 710px; */
+background-repeat: no-repeat;
+background-size: cover;
+width: 580px;
+height: 349px; 
+display: inline-block;
+position: relative;
+}
+
+.halls__link {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50% , -50%);
+}
+
+.halls__item--vibes {
+  background-image: url(../assets/halls_imgs/2img80vibes.jpg);
+  background-position: center;
+  /* padding: 275px 485px 275px 484px; */
+  padding-top: auto;
+  padding-bottom: auto;
+/* не знаю как отцентровать, паддинги не работают, 
+ох уж эти вырванные из потока сущности */
+}
+
+.halls__item--starwars {
+  background-image: url(../assets/halls_imgs/3starwars.jpg);
+  background-position: center;
+  /* padding: 275px 464px 275px 464px; */
+}
+
+.halls__item--wildwest {
+  background-image: url(../assets/halls_imgs/4wildwest.jpg);
+  background-position: center;
+  /* padding: 275px 489px 275px 488px; */
+}
+
+.halls__item--neon {
+  background-image: url(../assets/halls_imgs/neon.png);
+  background-position: center;
+  /* padding: 275px 477px 275px 477px; */
+}
+
+.halls__inline-group {
+  display: inline-block;
+}
+
+.halls__item:not(:nth-child(2n)) {
+  margin-right: 15px;
+}
+
+.halls__item:not(:nth-last-child(-n+2)) {
+  margin-bottom: 20px;
+}

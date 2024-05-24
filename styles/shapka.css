@@ -1,0 +1,52 @@
+.shapka {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 227%;
+  text-transform: uppercase;
+}
+
+.shapka__nav {
+  display: inline;
+}
+
+.shapka__logo {
+  display: inline;
+  margin-right: 96px;
+  
+}
+
+.shapka__list {
+  display: inline-flex;
+  justify-content: space-between;
+  gap: 30px;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 227%;
+  text-transform: uppercase;
+  margin-right: 96px;
+}
+
+.shapka__button {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 136%;
+  text-transform: uppercase;
+  color: #fff;
+  border: 3px solid #cd06ff;
+  border-radius: 10px;
+  width: 280px;
+  height: 55px;
+  /* text-align: right; */
+}
+
+.shapka__flex-container {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+  height: 100%;
+}
+
+.shapka__item {
+  display: inline;
+  white-space: nowrap;
+}

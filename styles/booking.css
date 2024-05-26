@@ -1,3 +1,11 @@
+.booking {
+  padding-top: 80px;
+}
+
+.booking__wrapper {
+  background-color: #440F51;
+}
+
 .booking__title {
   font-size: 40px;
   width: 980px;
@@ -6,4 +14,151 @@
   line-height: 50px;
   margin: auto;
   margin-bottom: 50px;
+  padding-top: 80px;
+}
+
+.booking__choose-hall-fieldset {
+  text-align: center;
+  border: none;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  /* gap: 60px; */
+  margin-bottom: 60px;
+}
+
+.booking__choose-hall-label {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 133%;
+  text-transform: uppercase;
+  text-align: center;
+  color: #000;
+  background-color: #fff;
+  border-radius: 8px;
+  width: 250px;
+  height: 55px;
+  padding: 7px 15px 8px;
+}
+
+.booking__subtitle {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 117%;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 40px;
+}
+
+.booking__subtitle--marginbottom24 {
+  margin-bottom: 24px;
+}
+
+.booking__date-time-subtitle--marginbottom60 {
+  margin-bottom: 60px;
+}
+
+.booking__get-fun-fieldset {
+  border: none;
+  text-align: center;
+  border: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  /* gap: 100px; */
+  margin-bottom: 60px;
+}
+
+.booking__console-fieldset,
+.booking__table-games-fieldset,
+.booking__additionally-fieldset,
+.booking__date-time-fieldset {
+  border: none;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  gap: 20px;
+}
+
+.booking__console-label,
+.booking__table-games-label,
+.booking__additionally-label,
+.booking__date-time-subtitle {
+  font-weight: 400;
+  font-size: 22px;
+}
+
+.booking__date-time-subtitle {
+  text-align: center;
+}
+
+.booking__flex-container--datetime {
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 300px ;
+}
+
+.booking__flex-container{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 980px;
+  height: 140px;
+  gap: 36px 50px;
+}
+
+.booking__date-time-label {
+  display: block;
+  height: 52px;
+}
+
+.booking__date-time-input {
+  display: block;
+  height: 52px;
+}
+
+.booking__date-time-input--w134 {
+  width: 134px;
+}
+
+.booking__datetime-group {
+  display: block;
+}
+
+.booking__datetime-group--w280 {
+  width: 280px;
+}
+
+.booking__datetime-group--w300 {
+  width: 300px;
+}
+
+.booking__datetime-group--beforename::before {
+  content: 'Имя';
+}
+
+.booking__datetime-group--beforesurename::before {
+  content: 'Фамилия';
+}
+
+.booking__datetime-group--beforetel::before {
+  content: 'Телефон';
+}
+
+.booking__datetime-group--email::before {
+  content: 'E-mail';
+}
+
+.booking__submit-button {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 127%;
+  text-transform: uppercase;
+  color: #6C0287;
+  border-radius: 10px;
+  width: 300px;
+  height: 60px;
+  background: #fff;
+  position: relative;
 }

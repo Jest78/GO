@@ -41,8 +41,6 @@ transform: translate(-50% , -50%);
   /* padding: 275px 485px 275px 484px; */
   padding-top: auto;
   padding-bottom: auto;
-/* не знаю как отцентровать, паддинги не работают, 
-ох уж эти вырванные из потока сущности */
 }
 
 .halls__item--starwars {

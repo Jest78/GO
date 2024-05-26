@@ -1,6 +1,6 @@
-.contacts {
+/* .contacts {
   
-}
+} */
 
 .contacts__title {
   font-size: 40px;
@@ -83,4 +83,10 @@
 
 .contacts__social-networks a {
   text-decoration: none; 
+}
+
+.contacts__flex-container {
+  display: flex;
+  flex-direction: row;
+  height: 275px;
 }

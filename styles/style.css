@@ -1,6 +1,7 @@
 @import url(normalize.css);
 @import url(shapka.css);
 @import url(banner.css);
+@import url(restwithfriends.css);
 @import url(halls.css);
 @import url(booking.css);
 @import url(about.css);
@@ -55,6 +56,10 @@ button {
   background-color: transparent;
 }
 
+input {
+  border: none;
+}
+
 a {
   text-decoration: none;
   color: inherit;
@@ -87,6 +92,7 @@ p,
 figure,
 fieldset {
   margin: 0;
+  padding: 0;
 }
 
 iframe {

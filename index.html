@@ -11,7 +11,7 @@
 <body>
 
   <header class="shapka">
-    <div class="container">
+    <div class="container shapka__container">
       <img class="shapka__logo" src="assets/images/logo.png" 
       alt="Логотип проекта GO" height="66">
       <nav class="shapka__nav"> 
@@ -22,8 +22,8 @@
           <li class="shapka__item"><a href="#reviews">Отзывы</a></li>
           <li class="shapka__item"><a href="#contacts">Контакты</a></li>
         </ul>
-        <button class="shapka__button">заказать звонок</button>
       </nav>
+      <button class="shapka__button">заказать звонок</button>
     </div>
     
   </header>
@@ -46,7 +46,18 @@
         </p>
       </div>
       <button class="banner__button">забронировать</button>
-      <img class="banner__downbutton" src="assets/down.png" alt="">
+      <a href="" class="banner__downbutton">
+        <svg width="105" height="105" viewBox="0 0 105 105" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+          <circle cx="52.5" cy="48.5" r="48" stroke="white"/>
+          
+          <rect x="38.4255" y="43.9162" width="1.82001" height="20.0201" transform="rotate(-44.9975 38.4255 43.9162)" fill="white"/>
+          <rect x="52.5807" y="58.0737" width="1.82001" height="20.0201" transform="rotate(-134.997 52.5807 58.0737)" fill="white"/>
+          
+      </svg>
+      </a>
+      
+      <!-- <img class="banner__downbutton" src="assets/down.png" alt=""> -->
     </div>
   </section>
   `
@@ -396,50 +407,53 @@
     <div class="container">
       <h2 id="contacts" class="contacts__title">Контакты</h2>
 
-      <address class="contacts__flex-container">
-        <ul class="contacts__location">
-          <li class="contacts__location-address">г.Москва <br> ул. Аквамарина, 16</li>
-          <li class="contacts__location-tel">
-            <a href="tel:89509302893" class="contacts__location-tel-link">8(950)930-28-93</a>
-          </li>
-          <li class="contacts__location-link">
-            <a href="mailto:GameOver@gmail.com?subject=Обращение с сайта 
-            GO&body=Добрый день" class="contacts__location-email">GameOver@gmail.com</a>
-          </li>
-        </ul>
+      <div class="contacts__wrapper">
+        <address class="contacts__flex-container">
+          <ul class="contacts__location">
+            <li class="contacts__location-address">г.Москва <br> ул. Аквамарина, 16</li>
+            <li class="contacts__location-tel">
+              <a href="tel:89509302893" class="contacts__location-tel-link">8(950)930-28-93</a>
+            </li>
+            <li class="contacts__location-link">
+              <a href="mailto:GameOver@gmail.com?subject=Обращение с сайта 
+              GO&body=Добрый день" class="contacts__location-email">GameOver@gmail.com</a>
+            </li>
+          </ul>
 
-        <ul class="contacts__social-networks-list">
-          <li class="contacts__social-networks-item">
-            <a href="http://vk.com" target="_blank" class="contacts__social-networks-vk-link">
-              <img src="../assets/icons/entypo-social_vk-with-circle.svg" 
-              alt="иконка Вконтакте" class="contacts__social-networks-vk-img">
-            </a>
-          </li>
+          <ul class="contacts__social-networks-list">
+            <li class="contacts__social-networks-item">
+              <a href="http://vk.com" target="_blank" class="contacts__social-networks-vk-link">
+                <img src="../assets/icons/entypo-social_vk-with-circle.svg" 
+                alt="иконка Вконтакте" class="contacts__social-networks-vk-img">
+              </a>
+            </li>
 
-          <li class="contacts__social-networks-item">
-            <a href="http://t.me" target="_blank" class="contacts__social-networks-tg-link">
-              <img src="../assets/icons/bi_telegram.svg" 
-              alt="иконка Телеграмм" class="contacts__social-networks-tg-img">
-            </a>
-          </li>
+            <li class="contacts__social-networks-item">
+              <a href="http://t.me" target="_blank" class="contacts__social-networks-tg-link">
+                <img src="../assets/icons/bi_telegram.svg" 
+                alt="иконка Телеграмм" class="contacts__social-networks-tg-img">
+              </a>
+            </li>
 
-          <li class="contacts__social-networks-item">
-            <a href="#" target="_blank" class="contacts__social-networks-pint-link">
-              <img src="../assets/icons/foundation_social-pinterest.svg" 
-              alt="иконка Пинтерест" class="contacts__social-networks-pint-img">
-            </a>
-          </li>
-          
-          <li class="contacts__social-networks-item">
-            <a href="#" target="_blank" class="contacts__social-networks-stumble-link">
-              <img src="../assets/icons/foundation_social-stumbleupon.svg" 
-              alt="иконка Стамбл" class="contacts__social-networks-stumble-img"></a>
-          </li>
-        </ul>
+            <li class="contacts__social-networks-item">
+              <a href="#" target="_blank" class="contacts__social-networks-pint-link">
+                <img src="../assets/icons/foundation_social-pinterest.svg" 
+                alt="иконка Пинтерест" class="contacts__social-networks-pint-img">
+              </a>
+            </li>
+            
+            <li class="contacts__social-networks-item">
+              <a href="#" target="_blank" class="contacts__social-networks-stumble-link">
+                <img src="../assets/icons/foundation_social-stumbleupon.svg" 
+                alt="иконка Стамбл" class="contacts__social-networks-stumble-img"></a>
+            </li>
+          </ul>
+        </address>
+        
         <figure>
           <img src="../assets/contacts_imgs/map.jpg" alt="">
         </figure>
-      </address>
+      </div>
     </div>
   </section>
   

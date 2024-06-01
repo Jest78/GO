@@ -1,6 +1,6 @@
 .banner {
   position: relative;
-  height: 979px;
+  height: 823px;
 }
 
 .banner__group-titles {
@@ -87,6 +87,12 @@ width: 193px;
 }
 
 .banner__downbutton {
-  position: relative;
+  position: absolute;
   margin: 0px auto;
+  left: 50%;
+  transform: translate(-50%);
+  height: 97px;
+  width: 97px;
+  bottom: 90px;
+
 }

@@ -1,29 +1,36 @@
 .shapka {
+  padding-top: 30px;
   font-weight: 400;
   font-size: 22px;
   line-height: 227%;
   text-transform: uppercase;
 }
 
-.shapka__nav {
-  display: inline;
+.shapka__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
-.shapka__logo {
+/* .shapka__nav {
   display: inline;
-  margin-right: 96px;
+} */
+
+.shapka__logo {
+  /* display: inline; */
+  /* margin-right: 96px; */
   
 }
 
 .shapka__list {
   display: inline-flex;
-  justify-content: space-between;
+  
   gap: 30px;
   font-weight: 400;
   font-size: 22px;
   line-height: 227%;
   text-transform: uppercase;
-  margin-right: 96px;
+  /* margin-right: 96px; */
 }
 
 .shapka__button {

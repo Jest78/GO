@@ -99,6 +99,9 @@ iframe {
   border: none;
 }
 
+fieldset {
+  border: none;
+}
 /*
 Доступно скрываю элементы
 */

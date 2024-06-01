@@ -87,6 +87,11 @@
 
 .contacts__flex-container {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   height: 275px;
+}
+
+.contacts__wrapper {
+  display: flex;
+  justify-content: space-between;
 }

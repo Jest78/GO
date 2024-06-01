@@ -2,7 +2,7 @@
   padding-top: 50px;
 } */
 
-.restwithfriends__title {
+.rest-with-friends__title {
   font-weight: 700;
   font-size: 40px;
   line-height: 125%;
@@ -13,7 +13,7 @@
   margin-bottom: 40px;
 }
 
-.restwithfriends__list {
+.rest-with-friends__list {
   display: flex;
   flex-wrap: wrap;
   gap: 40px 20px;

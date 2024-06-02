@@ -1,7 +1,7 @@
 @import url(normalize.css);
-@import url(shapka.css);
+@import url(header.css);
 @import url(banner.css);
-@import url(restwithfriends.css);
+@import url(rest-with-friends.css);
 @import url(halls.css);
 @import url(booking.css);
 @import url(about.css);
@@ -107,8 +107,16 @@ fieldset {
 */
 
 .visually-hidden {
-  position: fixed;
-  transform: scale(0);
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 

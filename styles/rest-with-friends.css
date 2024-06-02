@@ -1,0 +1,54 @@
+.restwithfriends {
+  padding-top: 550px;
+}
+
+.rest-with-friends__title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 125%;
+  text-transform: uppercase;
+  text-align: center;
+  width: 780px;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+
+.rest-with-friends__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px 20px;
+}
+
+.rest-with-friends__item {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 140%;
+  width: 380px;
+  height: 228px;
+  padding-left: 40px;
+  padding-top: 166px; 
+}
+
+.rest-with-friends__item--vr {
+background-image: url(../assets/rest-with-friends_imgs/vr.jpg);
+}
+
+.restwithfriends__item--audio {
+background-image: url(../assets/rest-with-friends_imgs/audio.jpg);
+}
+
+.rest-with-friends__item--karaoke {
+background-image: url(../assets/rest-with-friends_imgs/micro.jpg);
+}
+
+.rest-with-friends__item--board {
+  background-image: url(../assets/rest-with-friends_imgs/game.jpg);
+}
+
+.rest-with-friends__item--services {
+  background-image: url(../assets/rest-with-friends_imgs/netflix.jpg);
+}
+
+.rest-with-friends__item--ps5 {
+  background-image: url(../assets/rest-with-friends_imgs/sony.jpg);
+}

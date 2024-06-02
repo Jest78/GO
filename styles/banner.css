@@ -34,7 +34,6 @@
   position: absolute;
   right: 20px;
   top: 84px;
-  z-index: -1;
 }
 
 .banner__container-flex {
@@ -94,5 +93,4 @@ width: 193px;
   height: 97px;
   width: 97px;
   bottom: 90px;
-
 }

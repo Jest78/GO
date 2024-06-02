@@ -27,7 +27,7 @@
 
 .header__list {
   display: flex;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   /* justify-content: space-around; */
   gap: 30px;
   font-weight: 400;

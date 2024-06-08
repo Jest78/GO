@@ -85,6 +85,15 @@ width: 193px;
   position: relative;
 }
 
+.banner__button:hover,
+.banner__button:focus {
+  background: #840aa3;
+}
+
+.banner__button:active {
+  background: #640aa3;
+}
+
 .banner__downbutton {
   position: absolute;
   margin: 0px auto;
@@ -93,4 +102,24 @@ width: 193px;
   height: 97px;
   width: 97px;
   bottom: 90px;
+}
+
+.banner__downbutton:hover {
+  border-radius: 100%;
+  fill: #fff;
+  stroke-width: 1px;
+  stroke: #fff;
+}
+
+.banner__downbutton:focus {
+  border-radius: 100%;
+  stroke-width: 1px;
+  stroke: #fff;
+}
+
+.banner__downbutton:active {
+  border-radius: 100%;
+  fill: #cd06ff;
+  stroke-width: 1px;
+  stroke: #cd06ff;
 }

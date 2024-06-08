@@ -95,3 +95,35 @@
   display: flex;
   justify-content: space-between;
 }
+
+.contacts__social-networks-img:hover {
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  fill: #eadeed;
+}
+
+.contacts__social-networks-img:focus {
+  border: 1px solid #cd06ff;
+  fill: #eadeed;
+}
+
+.contacts__social-networks-img:active {
+  fill: #cd06ff;
+}
+
+.contacts__social-networks-link {
+
+}
+
+.ccontacts__social-networks-link:hover {
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  fill: #eadeed;
+}
+
+.contacts__social-networks-link:focus {
+  border: 1px solid #cd06ff;
+  fill: #eadeed;
+}
+
+.contacts__social-networks-link:active {
+  fill: #cd06ff;
+}

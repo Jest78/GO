@@ -49,6 +49,16 @@
   height: 55px;
 }
 
+.header__button:hover, .header__button:focus {
+  border: 3px solid #6c0287;
+  background-color: #6c0287;
+}
+
+.header__button:active {
+  border: 1px solid #000;
+  background-color: #640aa3;
+} 
+
 .header__flex-container {
   display: flex;
   align-items: flex-start;

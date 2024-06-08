@@ -36,6 +36,18 @@
   background-image: url(../assets/faq_imgs/open-purple.svg); 
 }
 
+.faq__item:nth-child(odd):after:hover {
+  color: #1C1A1A;
+}
+
+.faq__item:nth-child(odd):after:focus {
+  
+}
+
+.faq__item:nth-child(odd):after:active {
+  
+}
+
 .faq__item:nth-child(even):after {
   background-image: url(../assets/faq_imgs/open.svg);
 }         
@@ -48,7 +60,6 @@
   position: absolute;
   right: 5%;
   bottom: 25%;
-  /* vertical-align: middle; почему-то не работает выравнивание */
 }
 
 .faq__item:last-child {

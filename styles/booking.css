@@ -38,6 +38,21 @@
   padding: 7px 15px 8px;
 }
 
+.booking__choose-hall-label:hover {
+  border: 3px solid #640aa3;
+  background: #eadeed;
+}
+
+.booking__choose-hall-label:focus {
+  
+}
+
+.booking__choose-hall-label:active {
+  border: 3px solid #fff;
+  background: #6c0287;
+  color: #fff;
+}
+
 .booking__subtitle {
   font-weight: 700;
   font-size: 24px;
@@ -110,6 +125,10 @@
   height: 52px;
 }
 
+.booking__date-time-input:focus {
+  border: 2px solid #cd06ff;
+}
+
 .booking__date-time-input {
   display: block;
   height: 52px;
@@ -158,4 +177,18 @@
   height: 60px;
   background: #fff;
   position: relative;
+}
+
+.booking__submit-button:hover {
+  border: 3px solid #6c0287;
+  background: #eadeed;
+}
+
+.booking__submit-button:focus {
+  background: #fff;
+  border: 3px solid #6c0287;
+}
+
+.booking__submit-button:active {
+  background: #eadeed;
 }
